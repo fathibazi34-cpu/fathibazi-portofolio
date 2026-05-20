@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projek Pribadi — Fathi Bazi Rahman</title>
+  <meta name="description" content="Projek pribadi Fathi Bazi Rahman — Video Editing, Instalasi, 3D Design" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+</head>
+<body>
+
+  <div class="blob-extra"></div>
+
+  <!-- ============================================================
+       NAVBAR
+       ============================================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">@ fathi<span>bazi</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="page2.html">Projek Sekolah</a></li>
+        <li><a href="page3.html" class="active">Projek Pribadi</a></li>
+        <li><a href="index.html#kontak" class="nav-cta">Hubungi</a></li>
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       PAGE HERO
+       ============================================================ -->
+  <div class="page-hero">
+    <div class="container">
+      <div class="section-label reveal">Karya Mandiri</div>
+      <h1 class="reveal d1" style="margin-bottom:16px;">Projek<br/><em>Pribadi</em></h1>
+      <p class="page-hero-subtitle reveal d2">
+        Karya-karya yang dikerjakan di organisasi sekolah maupun di luar sekolah — dari video editing kreatif, projek mandiri , hingga desain 3D pribadi.
+      </p>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       VIDEO EDITING SECTION
+       ============================================================ -->
+  <section class="section" style="padding-top:20px;" id="video">
+    <div class="container">
+
+      <div class="reveal">
+        <div class="section-label">🎬 Video Editing</div>
+        <h2 class="section-title" style="margin-bottom:12px;">Karya Video</h2>
+        <p class="section-subtitle">Klik thumbnail untuk membuka video di Instagram.</p>
+      </div>
+
+      <!--
+        ============================================================
+        CARA MENAMBAH VIDEO BARU:
+        Salin satu blok personal-card lengkap, tempelkan setelah card terakhir.
+        Ganti:
+          1. href di <a class="personal-card"> → link Instagram video kamu
+          2. src di <img> → path gambar thumbnail kamu
+          3. .personal-title → judul video
+          4. .personal-desc → deskripsi singkat
+          5. href di <a class="ig-btn"> → link Instagram yang sama
+        ============================================================
+      -->
+
+      <div class="personal-grid">
+
+        <!-- VIDEO 1 -->
+        <!--
+          CARA GANTI LINK INSTAGRAM:
+          Ubah href="https://instagram.com/p/LINK-VIDEO-KAMU" sesuai link postingan Instagram kamu.
+          Format link: https://instagram.com/p/KODE_POST/
+        -->
+        <a href="https://www.instagram.com/p/DYM6NIBP5jO/" target="_blank" rel="noopener" class="glass-card personal-card reveal d1" style="text-decoration:none;">
+          <div class="personal-thumb">
+            <!--
+              CARA GANTI THUMBNAIL:
+              Dari: <div class="thumb-placeholder"> ... </div>
+              Jadi: <img src="assets/images/thumb-video1.jpg" alt="Nama Video" />
+            -->
+           <img src="assets/images/01.png" alt="Nama Video" />
+            <div class="play-btn">
+              <div class="play-btn-inner">▶</div>
+            </div>
+          </div>
+          <div class="personal-body">
+            <!-- GANTI JUDUL DI SINI -->
+            <div class="personal-title">Video Kemah Bakti Terpadu</div>
+            <!-- GANTI DESKRIPSI DI SINI -->
+            <p class="personal-desc">
+              Video After Movie dengan efek terbaik saya sepanjang ini menggunakan Adobe Premiere Pro dan After Effects untuk efek visual.
+            </p>
+            <!-- GANTI LINK INSTAGRAM DI SINI -->
+            <span class="ig-btn">📸 Lihat di Instagram</span>
+          </div>
+        </a>
+
+        <!-- VIDEO 2 -->
+        <a href="https://www.instagram.com/p/DYSKn8uTFsw/" target="_blank" rel="noopener" class="glass-card personal-card reveal d2" style="text-decoration:none;">
+          <div class="personal-thumb">
+            <img src="assets/images/02.png" alt="Nama Video" />
+            <div class="play-btn">
+              <div class="play-btn-inner">▶</div>
+            </div>
+          </div>
+          <div class="personal-body">
+            <div class="personal-title">Video Ketahanan sekolah (HANSEK)</div>
+            <p class="personal-desc">
+             sebuah video kegiatan HANSEK SMK Negeri 7 Semarang
+             Dibuat dengan software Premiere dan After Effects
+            </p>
+            <span class="ig-btn">📸 Lihat di Instagram</span>
+          </div>
+        </a>
+
+        <!-- VIDEO 3 -->
+        <a href="https://www.instagram.com/p/DVVU2wAAc8N/" target="_blank" rel="noopener" class="glass-card personal-card reveal d3" style="text-decoration:none;">
+          <div class="personal-thumb">
+            <img src="assets/images/Argapeta.png" alt="Nama Video" />
+            <div class="play-btn">
+              <div class="play-btn-inner">▶</div>
+            </div>
+          </div>
+          <div class="personal-body">
+            <div class="personal-title">Video HUT Argapeta 48</div>
+            <p class="personal-desc">
+             Kegiatan ulang tahun ke 48 Argapeta selama 1 hari 1 malam
+             Software : Premiere , After effect , kling AI
+            </p>
+            <span class="ig-btn">📸 Lihat di Instagram</span>
+          </div>
+        </a>
+
+      </div><!-- /personal-grid -->
+    </div>
+  </section>
+
+  <!-- ============================================================
+       INSTALASI RUMAH SECTION
+       ============================================================ -->
+  <section class="section" id="instalasi" style="padding-top:20px;">
+    <div class="container">
+
+      <div class="reveal">
+        <div class="section-label">💡 Projek Mandiri</div>
+        <h2 class="section-title" style="margin-bottom:12px;">Projek mandiri di luar sekolah</h2>
+        <p class="section-subtitle">Dokumentasi pekerjaan </p>
+      </div>
+
+      <div class="personal-grid">
+
+        <!-- INSTALASI 1 -->
+        <a href="" target="_blank" rel="noopener" class="glass-card personal-card reveal d1" style="text-decoration:none;">
+          <div class="personal-thumb" style="background:linear-gradient(135deg,#1a1a2e,#16213e,#0f3460);">
+            <img src="assets/images/03.jpeg" alt="Nama Video" />
+            <div class="play-btn">
+              
+            </div>
+          </div>
+          <div class="personal-body">
+            <div class="personal-title">Instalasi Saklar Ganda</div>
+            <p class="personal-desc">
+              Pemasangan dan instalasi Saklar Ganda kamar kos, termasuk pengerjaan kabel dan fitting sesuai standar keamanan.
+            </p>
+           
+          </div>
+        </a>
+
+        <!-- INSTALASI 2 -->
+        <a href="" target="_blank" rel="noopener" class="glass-card personal-card reveal d2" style="text-decoration:none;">
+          
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       DESAIN 3D SECTION
+       ============================================================ -->
+  <section class="section" id="desain3d" style="padding-top:20px;">
+    <div class="container">
+
+      <div class="reveal">
+        <div class="section-label">🧊 3D Design</div>
+        <h2 class="section-title" style="margin-bottom:12px;">Desain 3D</h2>
+        <p class="section-subtitle">Karya desain 3D menggunakan Autodesk Inventor dan Fusion 360.</p>
+      </div>
+
+      <div class="personal-grid">
+
+        <!-- 3D 1 -->
+        <a href="" target="_blank" rel="noopener" class="glass-card personal-card reveal d1" style="text-decoration:none;">
+          <div class="personal-thumb" style="background:linear-gradient(135deg,#0a0a1a,#0d1b2a,#1b263b);">
+             <img src="assets/images/04.jpeg" alt="Nama Video" />
+            <div class="play-btn">
+              
+            </div>
+          </div>
+          <div class="personal-body">
+            <div class="personal-title">Latihan Design memnuat Bracket Servo</div>
+            <p class="personal-desc">
+              Desain dan modeling 3D Bracket menggunakan Autodesk Inventor.
+            </p>
+            
+          </div>
+        </a>
+
+        <!-- 3D 2 -->
+        <a href="https://instagram.com" target="_blank" rel="noopener" class="glass-card personal-card reveal d2" style="text-decoration:none;">
+          <div class="personal-thumb" style="background:linear-gradient(135deg,#0a0a1a,#0d1b2a,#1b263b);">
+              <img src="assets/images/06.jpeg" alt="Nama Video" />
+            <div class="play-btn">
+              
+            </div>
+          </div>
+          <div class="personal-body">
+            <div class="personal-title">Latihan Membuat Dongkrak</div>
+            <p class="personal-desc">
+              Perancangan diambil dari technical drawing yang beredar di google dan di realisasikan menggunakan Autodesk Inventor.
+            </p>
+            
+          </div>
+        </a>
+
+        <!-- 3D 3 -->
+             <a href="https://instagram.com" target="_blank" rel="noopener" class="glass-card personal-card reveal d2" style="text-decoration:none;">
+          <div class="personal-thumb" style="background:linear-gradient(135deg,#0a0a1a,#0d1b2a,#1b263b);">
+              <img src="assets/images/05.jpeg" alt="Nama Video" />
+            <div class="play-btn">
+              
+            </div>
+          </div>
+          <div class="personal-body">
+            <div class="personal-title">Box PCB Custom</div>
+            <p class="personal-desc">
+              Perancangan box PCB kustom menggunakan Autodesk Inventor dan Fusion 360 sebagai importir dari Eagle, lengkap dengan lubang ventilasi.
+            </p>
+            
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+ 
+      </div><!-- /code-guide -->
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">@fathibazi</div>
+        <p class="footer-copy">© 2026 Fathi Bazi Rahman. SMKN 7 Semarang.</p>
+        <div class="footer-links">
+          <a href="index.html">Beranda</a>
+          <a href="page2.html">Projek Sekolah</a>
+          <a href="page3.html">Projek Pribadi</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
